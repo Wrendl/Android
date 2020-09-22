@@ -19,6 +19,9 @@ class MainActivity : AppCompatActivity() {
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putInt("cnt", cnt)
+        outState.putChar("sign", sign)
+        outState.putString("first", first)
+        outState.putString("second", tt.text as String?)
     }
 
     fun onClickSign(view: View) {
