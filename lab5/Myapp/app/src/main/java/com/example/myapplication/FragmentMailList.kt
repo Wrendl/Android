@@ -32,10 +32,5 @@ class FragmentMailList: Fragment() {
 
         mail_list_recycler.layoutManager = LinearLayoutManager(activity)
         mail_list_recycler.adapter = context?.let { MailListAdapter(mails, it) }
-
-
-
-
-
     }
 }
