@@ -22,7 +22,6 @@ class LoginActivity : AppCompatActivity() {
 
         login_btn.setOnClickListener{
             saveData()
-
         }
     }
 
@@ -47,10 +46,6 @@ class LoginActivity : AppCompatActivity() {
 
             Toast.makeText(this, "Saved", Toast.LENGTH_LONG).show()
         }
-
-
-
-
         }
 
     }
